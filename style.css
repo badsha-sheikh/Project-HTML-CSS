@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Merriweather", serif;
+}
+body{
+  box-sizing: border-box;
+}
+
+  
+.a-body-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(background\ .jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main {
+  flex: 1; /* So footer pushes down when content is short */
+}
+
+
+.nav-bar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.nav-container {
+  display: flex;
+}
+
+.nav-item {
+  height: 60px;
+  width: 100vw;
+  margin-top: 10px;
+  /* background-color: aquamarine; */
+}
+.nav-item {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.nav-item p {
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.nav-icon p {
+  color: aqua;
+  font-size: 1.5rem;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.img-mine {
+  height: 100px;
+  width: 100px;
+  
+  border-radius: 50%;
+  background-image: url(badsha\ p1.jpg);
+  background-size: cover;
+  
+  display: inline-block;
+}
+
+.intro {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  display: inline-block;
+  
+}
+.intro-and-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.login-form {
+  color: rgba(255, 255, 255, 1);
+  
+  height: 250px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  position: relative;
+  left: unset;
+  text-align: center;
+  margin:40px auto;
+}
+.login-text {
+  font-size: 2rem;
+  color: 			#39FF14;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+.user-id input[type="text"],
+.user-pass input[type="password"] {
+  height: 30px;
+  width: 300px;
+  /* border-radius: 5px; */
+  border: none;
+  background-color: transparent;
+  color: white;
+  /* border: 1px solid rgba(255, 255, 255, 0.9) */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  outline: none;
+}
+.user-id input::placeholder,
+.user-pass input::placeholder {
+  color: white;
+}
+.user-pass input[type="password"] {
+  margin-top: 6px;
+}
+.login-btn button {
+  height: 30px;
+  width: 300px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: rgba(0, 255, 100, 0.8);
+  margin-top: 35px;
+  border-radius: 4px;
+  outline: none;
+}
+.user-checkbox {
+  display: flex;
+  font-size: .8rem;
+  font-weight: 600;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  color: black;
+}
+/* Main Section */
+.main-section {
+  margin-top: 30px;
+}
+.main-section {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.about h2 , .heading{
+    margin-left: 5px;
+    margin-top: 30px;
+    color: #00FFFF;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block; 
+    padding: 5px 10px;     
+    text-align: center;    
+}
+
+.about p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+     background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* missing */
+.heading{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.traveling{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  width: 100%;
+
+ 
+}
+.img-sylhet, .img-coxs, .img-sitakundu, .img-chandpur{
+  height: 200px;
+  width: 220px;
+  border-radius: 10px;
+  margin: 10px;
+  background-size: cover;
+}
+.sylhet, .sitakundu, .coxs-bazar,.chandpur{
+  
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+}
+.spot{
+  color: #39FF14;
+}
+.footer{
+  height: 55px;
+  width: 100%;
+  background-color: #2e2e2e;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  #999999;
+}
