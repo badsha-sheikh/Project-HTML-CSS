@@ -1,0 +1,83 @@
+/* Mobile: 0–600px */
+@media (max-width: 600px) {
+  .intro-and-img {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .img-mine {
+    height: 80px;
+    width: 80px;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+  }
+
+  .login-form {
+    width: 90%;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .user-id input[type="text"],
+  .user-pass input[type="password"],
+  .login-btn button {
+    width: 90%;
+  }
+
+  .user-checkbox {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .traveling {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-sylhet,
+  .img-coxs,
+  .img-sitakundu,
+  .img-chandpur {
+    width: 90%;
+    height: 180px;
+  }
+}
+
+/* Tablet: 601px–900px */
+@media (max-width: 900px) {
+  .intro-and-img {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .login-form {
+    width: 80%;
+  }
+
+  .user-id input[type="text"],
+  .user-pass input[type="password"],
+  .login-btn button {
+    width: 90%;
+  }
+
+  .traveling {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .img-sylhet,
+  .img-coxs,
+  .img-sitakundu,
+  .img-chandpur {
+    width: 45%;
+    height: 180px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
