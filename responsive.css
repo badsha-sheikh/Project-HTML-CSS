@@ -5,7 +5,9 @@
     text-align: center;
     gap: 15px;
   }
-
+.nav-item{
+  flex-wrap: wrap;
+}
   .img-mine {
     height: 80px;
     width: 80px;
